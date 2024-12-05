@@ -27,9 +27,14 @@ export default {
             32: "8rem",
         }
       },
-    extend: {},
+    extend: {
+      flexGrow: {
+        2: '2'
+      }
+    },
     fontFamily: {
       'luckiest-guy': ["Luckiest Guy", "cursive"],
+      'berkshire-swash': ["Berkshire Swash", "serif"]
     }
   },
   plugins: [

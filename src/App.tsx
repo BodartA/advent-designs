@@ -1,13 +1,16 @@
 import './App.css'
+import { Link } from 'react-router'
+import Navbar from './components/Navbar'
 
 function App() {
 
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">
-        Advent Designs
-      </h1>
-    </>
+    <div className='min-h-screen'>
+      <Navbar></Navbar>
+      <div className=''>
+        <p className=''><Link to={"/day01"}>Day 01</Link ></p>
+      </div>
+    </div>
   )
 }
 

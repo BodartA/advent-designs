@@ -7,24 +7,24 @@ const Day01 = () => {
   return (
     <>
       <Navbar />
-      <div className='pt-16 h-screen flex-col'>
+      <div className=' pt-12 sm:pt-16 h-screen flex-col'>
 
         <div className=' flex p-4 justify-start'>
-          <h1>1. Santa Claus Card</h1>
+          <h1 className=' font-roboto font-bold text-xl sm:text-2xl text-stone-800'>1. Santa Claus Card</h1>
         </div>
 
         <div className='justify-center p-4 flex'>
 
-          <div className='rounded-3xl flex-col w-[300px] h-[450px] bg-green-700'>
+          <div className='rounded-3xl flex-col w-[300px] h-[450px] bg-lime-900'>
 
             <div className='pattern-vertical-lines pattern-red-500 pattern-bg-white pattern-size-20 pattern-opacity-100 w-full h-2/6 rounded-t-3xl drop-shadow-2xl flex justify-center items-center'>
               <img src={SantaClaus} className='h-[96px] w-[96px] rounded-full object-cover object-right drop-shadow-2xl'></img>
             </div>
 
-            <div className='h-3/6 text-pretty text-center bg-blue-500 px-4'>
+            <div className='h-3/6 text-pretty font-roboto text-center text-white px-4 grid content-around'>
               <div>
-                <h2 className=''>Santa Claus</h2>
-                <h3>@santaclaus</h3>
+                <h2 className=' text-2xl'>Santa Claus</h2>
+                <h3 className='text-xs text-slate-300'>@santaclaus</h3>
               </div>
 
               <div className=' flex justify-center gap-6'>
@@ -35,9 +35,14 @@ const Day01 = () => {
                 <Dribbble size={18} />
               </div>
               <div>
-                <p>Santa Claus is the best of the best. He will give you a lot of presents of you were a very good boy during the year.</p>
+                <p className=' text-sm'>Santa Claus is the best of the best. He will give you a lot of presents of you were a very good boy during the year.</p>
               </div>
 
+            </div>
+
+            <div className='flex h-1/6 justify-around font-roboto text-xs text-white text-center mx-5 gap-5 items-center'>
+              <button className=' bg-red-500 border-2 border-red-500 rounded-full h-9 w-full'>Follow</button>
+              <button className=' border-2 border-white rounded-full h-9 w-full'>Message</button>
             </div>
 
           </div>

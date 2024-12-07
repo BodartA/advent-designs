@@ -34,7 +34,8 @@ export default {
     },
     fontFamily: {
       'luckiest-guy': ["Luckiest Guy", "cursive"],
-      'berkshire-swash': ["Berkshire Swash", "serif"]
+      'berkshire-swash': ["Berkshire Swash", "serif"],
+      'roboto': ["Roboto", "sans"]
     }
   },
   plugins: [

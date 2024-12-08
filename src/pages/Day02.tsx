@@ -2,6 +2,9 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 
 const Day02 = () => {
+
+
+
   return (
     <div>
       <Navbar />
@@ -19,14 +22,40 @@ const Day02 = () => {
           </div>
 
           <div className=' w-1/2'>
-            <div className='rounded-3xl h-[450px] w-[350px] bg-white px-4 py-6 drop-shadow-2xl'>
-              <h3 className=' pb-4 text-base'>Send us a Message</h3>
-              <div className=' grid gap-3'>
-                <input placeholder='Name' className=' rounded-md px-2 border-2 border-stone-200'></input>
-                <input placeholder='Email' className=' rounded-md px-2 border-2 border-stone-200'></input>
-                <input placeholder='Phone' className=' rounded-md px-2 border-2 border-stone-200'></input>
+            <div className='rounded-3xl h-[450px] w-[350px] bg-white px-4 py-6 drop-shadow-2xl flex-col flex'>
+              <div className=' h-8'>
+                <h3 className=' text-base'>Send us a Message</h3>
               </div>
+              <div className=' grid gap-3 items-center'>
+                <div className=' grid gap-2 text-slate-600'>
+                  <input placeholder='Name' className=' rounded-md px-2 border-2 border-stone-200'></input>
+                  <input placeholder='Email' className=' rounded-md px-2 border-2 border-stone-200'></input>
+                  <input placeholder='Phone' className=' rounded-md px-2 border-2 border-stone-200'></input>
+                </div>
+                <div>
+                  <p className=' text-xs'>Preferred contact method of communication</p>
+                </div>
+                <div className=' flex gap-4 text-xs'>
+                  <label className=''>
+                    <input className=' mr-2' type='radio' />
+                    Email
+                  </label>
+                  <label className=''>
+                    <input className=' mr-2' type='radio' />
+                    Phone
+                  </label>
+                </div>
+              </div>
+              <div className=' h-24 my-4'>
+                <input className=' border-2 rounded-md px-2 border-stone-200 h-full w-full' placeholder='Message' />
+              </div>
+
+              <div className='flex-1 content-end'>
+                <button className='bg-pink-600 w-full p-2 rounded-full text-sm text-white'>Submit</button>
+              </div>
+
             </div>
+
           </div>
 
         </div>

@@ -37,17 +37,17 @@ const Day02 = () => {
                 </div>
                 <div className=' flex gap-4 text-xs'>
                   <label className=''>
-                    <input className=' mr-2' type='radio' />
+                    <input className=' mr-2' type='radio' name='radio' value="email" defaultChecked={true} />
                     Email
                   </label>
                   <label className=''>
-                    <input className=' mr-2' type='radio' />
+                    <input className=' mr-2' type='radio' name='radio' value='phone' />
                     Phone
                   </label>
                 </div>
               </div>
               <div className=' h-24 my-4'>
-                <input className=' border-2 rounded-md px-2 border-stone-200 h-full w-full' placeholder='Message' />
+                <textarea id='d2TA' className=' border-2 rounded-md px-2 border-stone-200 h-full w-full' placeholder='Message' />
               </div>
 
               <div className='flex-1 content-end'>

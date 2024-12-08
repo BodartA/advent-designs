@@ -7,7 +7,7 @@ const Day01 = () => {
   return (
     <>
       <Navbar />
-      <div className=' pt-12 sm:pt-16 h-screen flex-col content-center'>
+      <div className=' pt-12 sm:pt-16 h-screen flex-col content-center bg-emerald-100'>
 
         <div className='justify-center p-4 flex'>
 

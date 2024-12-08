@@ -8,7 +8,8 @@ function App() {
     <div className='min-h-screen'>
       <Navbar></Navbar>
       <div className=' pt-12 sm:pt-16'>
-        <p className=''><Link to={"/day01"}>Day 01</Link ></p>
+        <Link to={"/day01"}>Day 01</Link >
+        <Link to={"/day02"}>Day 02</Link>
       </div>
     </div>
   )

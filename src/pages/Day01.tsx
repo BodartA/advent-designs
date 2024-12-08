@@ -7,11 +7,7 @@ const Day01 = () => {
   return (
     <>
       <Navbar />
-      <div className=' pt-12 sm:pt-16 h-screen flex-col'>
-
-        <div className=' flex p-4 justify-start'>
-          <h1 className=' font-roboto font-bold text-xl sm:text-2xl text-stone-800'>1. Santa Claus Card</h1>
-        </div>
+      <div className=' pt-12 sm:pt-16 h-screen flex-col content-center'>
 
         <div className='justify-center p-4 flex'>
 

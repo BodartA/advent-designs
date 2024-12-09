@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.tsx'
 import Day01 from './pages/Day01.tsx'
 import Day02 from './pages/Day02.tsx'
+import Day03 from './pages/Day03.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
@@ -11,6 +12,7 @@ createRoot(document.getElementById('root')!).render(
       <Route path="/" element={<App />} />
       <Route path='/day01' element={<Day01 />} />
       <Route path='/day02' element={<Day02 />} />
+      <Route path='/day03' element={<Day03 />} />
     </Routes>
   </BrowserRouter>
 )

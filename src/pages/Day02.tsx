@@ -9,11 +9,11 @@ const Day02 = () => {
     <div>
       <Navbar />
 
-      <div className=' h-screen flex pt-12 sm:pt-16 justify-center items-center bg-gradient-to-b from-indigo-700 via-purple-700 to-pink-700'>
+      <div className=' min-h-screen h-fit flex pt-12 sm:pt-16 justify-center w-fit min-w-full items-center bg-gradient-to-b from-indigo-700 via-purple-700 to-pink-700'>
 
-        <div className=' md:flex md:flex-row md:items-start font-roboto flex flex-col items-center gap-5'>
+        <div className=' md:flex md:flex-row md:items-start font-roboto flex flex-col items-center gap-5 py-4'>
 
-          <div className='flex justify-end items-start md:w-1/2 text-white sm:w-[350px] w-[300px] md:pl-4'>
+          <div className='flex justify-end items-start md:w-1/2 text-white sm:w-[350px] md:pl-4 w-[300px]'>
             <div className=' flex-col'>
               <h1 className=' text-2xl sm:text-4xl pb-2 text-center md:text-start'>Contact Us</h1>
               <p className=' text-sm sm:text-base md:w-3/4 text-center md:text-start'>Get in touch with us ! Whatever you have questions, feedback, or just want to ay hello, we're here for you.</p>
@@ -21,7 +21,7 @@ const Day02 = () => {
           </div>
 
           <div className=' md:w-1/2'>
-            <div className='rounded-3xl md:h-[450px] sm:w-[350px] h-[450px] bg-white px-4 py-6 drop-shadow-2xl flex-col flex w-[300px]'>
+            <div className='rounded-3xl md:h-[450px] sm:w-[350px] h-[450px] bg-white px-4 py-6 drop-shadow-2xl flex-col flex max-w-[300px]'>
               <div className=' h-8'>
                 <h3 className=' text-base'>Send us a Message</h3>
               </div>

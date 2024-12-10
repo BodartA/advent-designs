@@ -9,9 +9,9 @@ const Day02 = () => {
     <div>
       <Navbar />
 
-      <div className=' h-screen flex pt-12 sm:pt-16 justify-center items-center bg-gradient-to-b from-indigo-700 via-purple-700 to-pink-700'>
+      <div className=' min-h-screen h-fit flex pt-12 sm:pt-16 justify-center items-center bg-gradient-to-b from-indigo-700 via-purple-700 to-pink-700'>
 
-        <div className=' md:flex md:flex-row md:items-start font-roboto flex flex-col items-center gap-5'>
+        <div className=' md:flex md:flex-row md:items-start font-roboto flex flex-col items-center gap-5 py-4'>
 
           <div className='flex justify-end items-start md:w-1/2 text-white sm:w-[350px] w-[300px] md:pl-4'>
             <div className=' flex-col'>

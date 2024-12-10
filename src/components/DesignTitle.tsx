@@ -1,9 +1,9 @@
 import React from 'react';
 
-const DesignTitle = ({ desginTitle = "title", textColor = "black" }) => {
+const DesignTitle = ({ desginTitle = "title" }) => {
 
   const title = desginTitle
-  const color = textColor
+
 
   return (
     <div className=' flex justify-start pt-12 sm:pt-16 fixed'>

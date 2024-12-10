@@ -5,11 +5,11 @@ import { Facebook, Linkedin, Twitter, Instagram, Dribbble } from 'lucide-react';
 
 const Day01 = () => {
   return (
-    <>
+    <div className=' flex flex-col min-h-screen h-screen'>
       <Navbar />
-      <div className=' pt-12 sm:pt-16 min-h-screen flex flex-col h-fit content-center bg-emerald-100'>
+      <div className='flex-col flex-1 bg-emerald-100'>
 
-        <div className='justify-center p-4 flex'>
+        <div className='justify-center p-4 flex border-2 h-full items-center'>
 
           <div className='rounded-3xl flex-col w-[300px] h-[450px] bg-lime-900'>
 
@@ -45,7 +45,7 @@ const Day01 = () => {
         </div>
 
       </div >
-    </>
+    </div>
   );
 };
 

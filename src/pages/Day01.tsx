@@ -7,7 +7,7 @@ const Day01 = () => {
   return (
     <div className=' flex flex-col min-h-screen h-screen'>
       <Navbar />
-      <div className='flex-col flex-1 bg-emerald-100'>
+      <div className='flex-1 bg-emerald-100'>
 
         <div className='justify-center p-4 flex border-2 h-full items-center'>
 

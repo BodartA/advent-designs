@@ -9,7 +9,7 @@ const Day02 = () => {
     <div className=' flex flex-col min-h-screen h-screen'>
       <Navbar />
 
-      <div className=' min-h-screen h-fit flex pt-12 sm:pt-16 justify-center w-fit min-w-full items-center bg-gradient-to-b from-indigo-700 via-purple-700 to-pink-700'>
+      <div className='flex flex-1 justify-center w-fit min-w-full items-center bg-gradient-to-b from-indigo-700 via-purple-700 to-pink-700'>
 
         <div className=' md:flex md:flex-row md:items-start font-roboto flex flex-col items-center gap-5 py-4'>
 
